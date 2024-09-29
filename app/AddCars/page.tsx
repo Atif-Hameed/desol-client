@@ -1,7 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
 'use client'
 import { useState, useEffect } from 'react';
-import axios from 'axios';
 import { storage } from '../../lib/firebaseConfig';
 import { ref, uploadBytes, getDownloadURL, deleteObject } from 'firebase/storage';
 import { FaTrash } from 'react-icons/fa';
